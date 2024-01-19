@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Información de la IP del Cliente</title>
+    <!-- Agrega las referencias a Bootstrap CSS -->
+    <link rel="stylesheet" href="file:///D:/GeoIPLocation/Inicio.html">
+    <style>
+        /* Estilo para las cabeceras de la tabla */
+        th {
+            background-color: black;
+            color: white;
+        }
+        /* Estilo para las filas intercaladas de la tabla */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Información de la IP del Cliente</h1>
+        <!-- Tabla con Bootstrap classes -->
+        <table class="table text-center">
+            <thead class="thead-dark">
+                <tr>
+                    <th>IP</th>
+                    <th>País</th>
+                    <th>Continente</th>
+                    <th>Zona Horaria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white">
+                    <td id="ip">---</td>
+                    <td id="país">---</td>
+                    <td id0="continente">---</td>
+                    <td id="zona_horaria">---</td>
+                </tr>
+                <!-- Puedes agregar más filas según sea necesario -->
+            </tbody>
+        </table>
+    </div>
+    <!-- Agrega la referencia al script de Bootstrap JS (opcional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-U7k3zC2k5U2Nl3/JLvUcjn2BLqDlJw8wQD4tYfF99Gg8dJ2gCFY6uZcK54BI5L5"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src=”js/main.js”></script>
+</body>
+</html>
